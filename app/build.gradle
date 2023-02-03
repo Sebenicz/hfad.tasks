@@ -1,11 +1,16 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 
 android {
     namespace 'com.hfad.tasks'
     compileSdk 33
+
+    buildFeatures{
+        dataBinding true
+    }
 
     defaultConfig {
         applicationId "com.hfad.tasks"
@@ -41,4 +46,11 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    def lifecycle = "2.5.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle"
+    def room = "2.5.0"
+    implementation "androidx.room:room-runtime:$room"
+    implementation "androidx.room:room-ktx:$room"
+    kapt "androidx.room:room-compiler:$room"
 }
