@@ -22,7 +22,7 @@ r
 Bapp/src/androidTest/java/com/hfad/tasks/ExampleInstrumentedTest.kt,e/d/eda745b0659765409771c477853a6df9b6a34c6f
 c
 3app/src/test/java/com/hfad/tasks/ExampleUnitTest.kt,9/7/9766a9e6f6566ced27f337d9eeae45fd0722f698
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+X
+(app/src/main/java/com/hfad/tasks/Task.kt,a/0/a0933e710f9c52c1004b940b2fb8583134d1a5db
+[
++app/src/main/java/com/hfad/tasks/TaskDao.kt,4/1/41cba8e74d915aab894c68949d26634c4b5cd484
