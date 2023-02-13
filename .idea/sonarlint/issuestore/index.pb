@@ -22,7 +22,5 @@ r
 Bapp/src/androidTest/java/com/hfad/tasks/ExampleInstrumentedTest.kt,e/d/eda745b0659765409771c477853a6df9b6a34c6f
 c
 3app/src/test/java/com/hfad/tasks/ExampleUnitTest.kt,9/7/9766a9e6f6566ced27f337d9eeae45fd0722f698
-X
-(app/src/main/java/com/hfad/tasks/Task.kt,a/0/a0933e710f9c52c1004b940b2fb8583134d1a5db
-[
-+app/src/main/java/com/hfad/tasks/TaskDao.kt,4/1/41cba8e74d915aab894c68949d26634c4b5cd484
+`
+0app/src/main/java/com/hfad/tasks/MainActivity.kt,4/5/4510e6312bcc4f011d16a7160357c10e6b07ed61
